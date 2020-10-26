@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    color: white;
+}
+
+.cont_back{
+    background: no-repeat url(../images/bgc.png);
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+    color: white;
+}
+
+.pad_top{
+    padding-top: 1%;
+}
+
+.logo{
+    margin-left: 3%;
+}
+
+.logo_image{
+    width: 150px;
+}
+
+.logo:hover{
+    opacity: 0.6;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+}
+
+.nav_link{
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.nav_link:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.search_globe{
+    text-decoration: none;
+    color: white;
+}
+
+
+.search:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.globe:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.hr_1{
+    background-color: white;
+}
+
+.header_text{
+    padding-top: 26%;
+    padding-left: 58%; 
+}
+
+.card_block1{
+    max-width: 70%;
+    min-height: 60%;
+    padding-top: 26%;
+    padding-left: 13%;
+}
+
+.block_dis{
+    display: block;
+}
+
+.pad_left_right{
+    padding-left: 16.666666%;
+    padding-right: 16.666666%;
+}
+
+.pad_top_bottom_{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.nav_block{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.text_color_black{
+    color: black;
+}
+
+.text_color_black a{
+    color: black;
+}
+
+.nav_intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.border_none{
+    border: none;
+}
+
+.padding_0{
+    padding: 0;
+}
+
+.padding_5percent{
+    padding-top: 5%;
+}
+
+.text_color_red{
+    color: #F6404F;
+}
+
+.bg_news{
+    background: #FAF3E3;
+}
+
+.border_radius{
+    border-radius: 0;
+}
+
+.bg_footer{
+    background: #30BCC9;
+}
+
+.bg_footer a:hover{
+    color: #FFC41E;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.pad_top_bottom_1{
+    padding-top: 15%;
+}
+
+.ptb_hover:hover {
+    opacity: 0.7;
+}
+
+.ptb_hover:active{
+    opacity: 0.3;
+}
+
+.footer_logo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    display: flex;
+    font-size: 80%;
+}
+
+input{
+    border: none;
+}
+
+.email_style{
+    width: auto;
+    height: 40px;
+}
+
+.email_style_send{
+    width: 40px;
+    height: 40px ;
+    background: #F6404F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email_style_send:hover{
+    opacity: 0.5;
+}
